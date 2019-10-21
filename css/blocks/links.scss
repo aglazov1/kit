@@ -1,0 +1,31 @@
+.link-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 360px;
+}
+.link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: $font-family-main;
+  font-size: $font-size-default;
+  line-height: 14px;
+  color: $color-primary;
+}
+.link__default {
+  color: $color-default;
+}
+.link__info {
+  color: $color-info;
+}
+.link__success {
+  color: $color-success;
+}
+
+.link__warning {
+  color: $color-warning;
+}
+
+.link__danger {
+  color: $color-danger;
+}
